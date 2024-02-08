@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+}
+
+.div1{
+  display: flex;
+  /* display: inline-flex; */
+  /* width: 410px; */
+  padding-left: 170px;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+header h2 {
+  font-size: 14px;
+  padding-top: 24px;
+  padding-left: 6px;  
+  padding-right: 280px;
+}
+
+input{
+  width: 160px;
+  height: 16px;
+  font-size: 12px;
+  margin-top: 32px;
+  padding: 3px;
+  border: 2px solid #555;
+}
+
+header p {
+  padding-left: 18px;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+.div2{
+  /* text-align: center; */
+  font-size: 15px;
+  font-weight: bold;
+  /* display: flex;   */
+  /* justify-content: space-between; */
+  /* gap: 32px; */
+  /* width: 800px; */
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  word-spacing : 3em;
+} 
+
+.div3{
+  display: flex;
+  margin: 0 auto;
+  width: 1080px;
+  padding-left: 320px;
+  padding-top: 46px;
+}
+
+.div3 h2 {
+  margin-left: 54px;
+  font-size: 30px;
+  text-align:start;
+  padding-left: 16px;
+  color: #444;
+  margin-top: 48px;
+}
+
+
+.div3 p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  padding-left: 16px;
+}
+
+
+.div4{
+  display: flex;
+  width: 1500px;
+  height: 460px;
+  margin-top: 46px;
+  background: #eee;
+  padding-top: 28px;
+}
+
+.div4 h1 {
+  font-size: 30px;
+  color: #444;
+  padding-left: 220px;
+  padding-right: 180px;
+  padding-top: 48px;
+}
+
+.div4 p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0;
+  padding-top: 16px;
+}
+
+.div4 h2 {
+  padding-right: 280px;
+}
+
+.div5{
+  display: flex;
+  margin: 0 auto;
+  width: 1080px;
+  height: 460px;
+  padding-left: 320px;
+  padding-top: 46px;
+}
+
+.div5 h2 {
+  margin-left: 54px;
+  font-size: 30px;
+  text-align:start;
+  padding-left: 54px;
+  padding-right: 300px;
+  color: #444;
+  margin-top: 48px;
+}
+
+
+.div5 p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  padding-left: 16px;
+}
+
+section{
+  text-align: center;
+  height: 600px;
+  background: #eee;
+  padding-top: 16px;
+}
+
+section h1 {
+  font-size: 35px;
+  color: #444;
+}
+
+section p {
+  width: 800px;
+  font-size: 17px;
+  padding-left: 300px;
+  line-height: 30px;
+  margin-top: 0;
+  padding-bottom: 16px;
+}
+
+section img {
+  margin: 0 0 24px 24px;
+}
+
+section div {
+  word-spacing : 15em;
+  margin: 0;
+}
+
+aside {
+  margin: 20px 24px 20px 240px;
+  font-size: 12px;
+}
+
+.div6 {
+  background: #eee;
+  display: flex;
+  /* text-align: center; */
+  /* margin: auto 0; */
+  padding-left: 240px;
+  padding-top: 50px;
+  /* word-spacing : 5em; */
+}
+
+.div7 {
+  font-size: 13px;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.div7 h1 {
+  font-size: 14px;
+}
+
+.div8 {
+  font-size: 13px;
+  padding-left: 110px;
+  cursor: pointer;
+}
+
+.div8 h1 {
+  font-size: 14px;
+}
+
+.div9 {
+  font-size: 7px;
+  padding-left: 110px;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.div10 {
+  font-size: 13px;
+  padding-left: 110px;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.div10 h1 {
+  font-size: 14px;
+}
+
+.div11 {
+  background: #eee;
+  text-align: center;
+  word-spacing : 1em;
+  padding-top: 24px;
+}
+
+.div11 img {
+  cursor: pointer;
+}
+
+.div12 {
+  text-align: center;
+  background: #eee;
+  padding-top: 20px;
+}
+
+.div12 img {
+  cursor: pointer;
+  /* animation-name: miffy; */
+  /* animation: miffy 1.5s ease-in-out infinite linear; */
+    animation-name: miffy;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+}
+
+@keyframes miffy {
+  0% {
+    transform: translate(0,0px);
+  }
+  100% {
+    transform: translate(0,-10px);
+  }   
+}
+
+.div13 {
+  background: #eee;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 12px;
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 400px;
+  }
+}
+
+/* 
+.pagetop {
+  width: 50px;
+  height: 50px;
+  padding-left: 1250px;
+} */
+
